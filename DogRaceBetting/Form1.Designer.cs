@@ -35,11 +35,11 @@
             this.dog3 = new System.Windows.Forms.PictureBox();
             this.dog4 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.minBetLabel = new System.Windows.Forms.Label();
             this.joeRadioButton = new System.Windows.Forms.RadioButton();
             this.bobRadioButton = new System.Windows.Forms.RadioButton();
             this.alRadioButton = new System.Windows.Forms.RadioButton();
-            this.label2 = new System.Windows.Forms.Label();
+            this.betLabel = new System.Windows.Forms.Label();
             this.joeBetLabel = new System.Windows.Forms.Label();
             this.bobBetLabel = new System.Windows.Forms.Label();
             this.alBetLabel = new System.Windows.Forms.Label();
@@ -110,11 +110,11 @@
             this.groupBox1.Controls.Add(this.alBetLabel);
             this.groupBox1.Controls.Add(this.bobBetLabel);
             this.groupBox1.Controls.Add(this.joeBetLabel);
-            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.betLabel);
             this.groupBox1.Controls.Add(this.alRadioButton);
             this.groupBox1.Controls.Add(this.bobRadioButton);
             this.groupBox1.Controls.Add(this.joeRadioButton);
-            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.minBetLabel);
             this.groupBox1.Location = new System.Drawing.Point(13, 279);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(773, 148);
@@ -122,15 +122,15 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Betting Parlor";
             // 
-            // label1
+            // minBetLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(7, 20);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(104, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "minimumBetLabel";
+            this.minBetLabel.AutoSize = true;
+            this.minBetLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.minBetLabel.Location = new System.Drawing.Point(7, 20);
+            this.minBetLabel.Name = "minBetLabel";
+            this.minBetLabel.Size = new System.Drawing.Size(104, 13);
+            this.minBetLabel.TabIndex = 0;
+            this.minBetLabel.Text = "minimumBetLabel";
             // 
             // joeRadioButton
             // 
@@ -165,14 +165,14 @@
             this.alRadioButton.Text = "alRadioButton";
             this.alRadioButton.UseVisualStyleBackColor = true;
             // 
-            // label2
+            // betLabel
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(221, 20);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(28, 13);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Bets";
+            this.betLabel.AutoSize = true;
+            this.betLabel.Location = new System.Drawing.Point(221, 20);
+            this.betLabel.Name = "betLabel";
+            this.betLabel.Size = new System.Drawing.Size(28, 13);
+            this.betLabel.TabIndex = 4;
+            this.betLabel.Text = "Bets";
             // 
             // joeBetLabel
             // 
@@ -250,11 +250,11 @@
         private System.Windows.Forms.RadioButton alRadioButton;
         private System.Windows.Forms.RadioButton bobRadioButton;
         private System.Windows.Forms.RadioButton joeRadioButton;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label minBetLabel;
         private System.Windows.Forms.Label alBetLabel;
         private System.Windows.Forms.Label bobBetLabel;
         private System.Windows.Forms.Label joeBetLabel;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label betLabel;
         private System.Windows.Forms.Button startRace;
     }
 }
